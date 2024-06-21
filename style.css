@@ -5,7 +5,7 @@ Theme URI:    https://demo2.pavothemes.com/freshio/
 Author:       Pavotheme
 Author URI:   https://pavothemes.com/
 Description:  Freshio is a beautiful, modern & responsive Organic Food Store WordPress Theme. It perfectly fits any natural food related websites such as fresh food store, market food, grocery market, organic ecommerce website, organic food shop, organic market, supermarket and online grocery store. Also, it is perfect for eco products stores, fresh bread, bakery stores and even natural cosmetics shops.
-Version:      2.2.6.0.3
+Version:      2.2.6.0.4
 License:      GNU General Public License v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  freshio
@@ -1894,7 +1894,6 @@ body {
   position: relative;
   width: 44px;
   height: 44px;
-  background: #f6f3e3;
   border-radius: 50%;
   margin-right: 16px !important;
   -webkit-transition: all 0.3s ease;
@@ -1954,7 +1953,6 @@ body {
     width: 44px;
     height: 44px;
     text-align: center;
-    background: #f3e4dc;
     border-radius: 50%;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
