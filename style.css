@@ -1708,7 +1708,6 @@ body {
   position: relative;
   width: 44px;
   height: 44px;
-  background: #e8f8f7;
   border-radius: 50%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -1868,7 +1867,6 @@ body {
 .site-header-search {
   width: 44px;
   height: 44px;
-  background: #f4f4f4;
   border-radius: 50%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -2590,7 +2588,7 @@ body {
     .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item:hover > a, .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item.current-menu-item > a, .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item.current-menu-parent > a {
       color: #0a472e; }
     .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item > a {
-      color: #fff; }
+      color: #000000; }
 
 .search-popup-active {
   overflow: hidden; }
