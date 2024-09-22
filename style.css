@@ -5,7 +5,7 @@ Theme URI:    https://demo2.pavothemes.com/freshio/
 Author:       Pavotheme
 Author URI:   https://pavothemes.com/
 Description:  Freshio is a beautiful, modern & responsive Organic Food Store WordPress Theme. It perfectly fits any natural food related websites such as fresh food store, market food, grocery market, organic ecommerce website, organic food shop, organic market, supermarket and online grocery store. Also, it is perfect for eco products stores, fresh bread, bakery stores and even natural cosmetics shops.
-Version:      2.2.6.0.8
+Version:      2.2.7
 License:      GNU General Public License v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  freshio
@@ -1708,6 +1708,7 @@ body {
   position: relative;
   width: 44px;
   height: 44px;
+  background: #e8f8f7;
   border-radius: 50%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -1867,6 +1868,7 @@ body {
 .site-header-search {
   width: 44px;
   height: 44px;
+  background: #f4f4f4;
   border-radius: 50%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -1894,6 +1896,7 @@ body {
   position: relative;
   width: 44px;
   height: 44px;
+  background: #f6f3e3;
   border-radius: 50%;
   margin-right: 16px !important;
   -webkit-transition: all 0.3s ease;
@@ -1953,6 +1956,7 @@ body {
     width: 44px;
     height: 44px;
     text-align: center;
+    background: #f3e4dc;
     border-radius: 50%;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
@@ -2577,20 +2581,12 @@ body {
   body.home .header-9 .header-navigation-background,
   .page-template-template-homepage .header-9 .header-navigation-background {
     background-color: transparent; }
- body.home .header-9 .header-navigation-background{
-      background: #ffffff;
-    }
-
   .header-9 .header-navigation-background {
     background-color: #AFC675; }
     .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item:hover > a, .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item.current-menu-item > a, .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item.current-menu-parent > a {
       color: #0a472e; }
-.header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item.current-menu-item > a,
-.header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item:hover > a{
-    color: #D8690A;
-}
     .header-9 .header-navigation-background .main-navigation ul.menu > li.menu-item > a {
-      color: #000000; }
+      color: #fff; }
 
 .search-popup-active {
   overflow: hidden; }
@@ -2887,10 +2883,10 @@ ul.menu li.current-menu-item > a {
       padding: 1em 1.3em;
       display: block; }
       .main-navigation ul.menu li.menu-item > a:hover {
-        color: #D8690A;
+        color: #a8b324;
         border-bottom-color: #0a472e; }
     .main-navigation ul.menu li.menu-item.current-menu-parent > a, .main-navigation ul.menu li.menu-item.current-menu-item > a {
-      color:#D8690A }
+      color: #a8b324; }
     .main-navigation ul.menu li.menu-item .sub-menu {
       border-radius: 4px; }
       .main-navigation ul.menu li.menu-item .sub-menu .menu-item a {
@@ -5269,7 +5265,7 @@ video {
     margin-left: auto;
     margin-right: 0; }
   .site-branding img {
-    width: 170px; } }
+    width: 130px; } }
 
 body.freshio-layout-boxed {
   margin: auto;
@@ -8157,3 +8153,29 @@ div[class*='post-style-'] .entry-content > a:before {
       width: 1px;
       word-wrap: normal !important; }
 
+.freshio-breadcrumb-background{
+	position:relative;
+}
+
+.freshio-breadcrumb-background::before{
+	content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0 0 0 / 0.4);
+}
+
+
+.freshio-breadcrumb-background .col-full{
+	position:relative;
+	z-index:2
+}
+.freshio-breadcrumb-background .breadcrumb-heading{color:#ffffff;}
+
+
+.freshio-breadcrumb-background a {
+  color: #d5d5d5;
+}
+
+.freshio-breadcrumb-background .woocommerce-breadcrumb{
+  color: #ffffff;
+}

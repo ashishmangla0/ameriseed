@@ -1,4 +1,4 @@
-<div class="freshio-breadcrumb" 
+<div class="freshio-breadcrumb
     <?php
     // Check if it's a product category or custom taxonomy
     if (is_tax('product_cat')) {
@@ -10,9 +10,15 @@
 
             // Check if breadcrumb image exists
             if (!empty($breadcrumb_image)) {
-                echo 'style="background-image: url(' . esc_url($breadcrumb_image['url']) . ');"';
+                echo ' freshio-breadcrumb-background'; // Add a custom class if the image is present
             }
         }
+    }
+    ?>"
+    <?php
+    // Set inline background image if breadcrumb_image exists
+    if (!empty($breadcrumb_image)) {
+        echo ' style="background-image: url(' . esc_url($breadcrumb_image['url']) . ');"';
     }
     ?>
 >
